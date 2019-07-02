@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clicker" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MAP" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_frame_back"
+        android:layout_width="match_parent"
+        android:layout_height="337dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <!--<fragment
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        -->
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Button1" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/alertText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Text Input"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/sendAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button2" />
+
+</LinearLayout>
